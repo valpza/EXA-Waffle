@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <TextView
+        android:id="@+id/TxtVTi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NETWORK ADDRESS CAALCULATOR" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IP:" />
+
+        <EditText
+            android:id="@+id/edT1"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edT2"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edT3"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edT4"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="Mask:" />
+
+        <EditText
+            android:id="@+id/edT5"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edT6"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edT7"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edT8"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TxtVF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formato:" />
+
+    <RadioGroup
+        android:id="@+id/RGF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decimal " />
+
+        <RadioButton
+            android:id="@+id/rbBi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Binario" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TxtVCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversión:" />
+
+    <TextView
+        android:id="@+id/TxtVIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP:" />
+
+    <TextView
+        android:id="@+id/TxtVMa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mask" />
+
+    <TextView
+        android:id="@+id/TxtVR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultados:" />
+
+    <TextView
+        android:id="@+id/TxtVSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subred:" />
+
+    <TextView
+        android:id="@+id/TxtVPre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prefijo:" />
+
+    <Button
+        android:id="@+id/btC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <Button
+        android:id="@+id/btB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar" />
+
+</LinearLayout>
